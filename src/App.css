@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    min-height: 600px;      
+}
+
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-wrap: wrap;    
+    max-width: 700px;        
+}
+
+.card {    
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    background-color: burlywood;
+    border: solid 1px gray;
+    border-radius: 16px; 
+    margin: 10px;
+    width: 192px;
+    height: 192px;
+}
+
+.card__image {
+    border-radius: 16px;
+}
